@@ -1,29 +1,29 @@
-#Política de Privacidade
+## Privacy Policy
 
-Esta Política de Privacidade descreve como a extensão Letterboxd Randomizer ("nós", "nosso") coleta, usa e protege as informações pessoais que você ("usuário") fornece ao usar nossa extensão.
+This Privacy Policy describes how Letterboxd Randomizer extension ("we", "us", "our") collects, uses and protects the personal information that you ("user") provide when using our extension.
 
-## Coleta de Informações
+## Information Collection
 
-Não coletamos nenhuma informação pessoal identificável sobre você enquanto você usa nossa extensão. Não solicitamos, coletamos ou armazenamos qualquer tipo de dados pessoais.
+We do not collect any personally identifiable information about you while you use our extension. We do not request, collect or store any personal data.
 
-## Uso das Informações
+## Use of Information
 
-Não usamos nenhuma informação pessoal identificável fornecida pelos usuários, pois não coletamos essas informações. A extensão é projetada para operar sem a necessidade de coletar ou armazenar qualquer dado pessoal.
+We do not use any personally identifiable information provided by users, as we do not collect this information. The extension is designed to operate without the need to collect or store any personal data.
 
-## Compartilhamento de Informações
+## Information Sharing
 
-Não compartilhamos informações pessoais identificáveis de nossos usuários com terceiros. Como não coletamos informações pessoais, não há informações para compartilhar.
+We do not share personally identifiable information about our users with third parties. As we do not collect personal information, there is no information to share.
 
-## Segurança
+## Security
 
-Estamos comprometidos em garantir que suas informações estejam seguras. Para evitar o acesso não autorizado ou divulgação, implementamos procedimentos físicos, eletrônicos e gerenciais adequados para proteger e proteger as informações que coletamos online.
+We are committed to ensuring that your information is secure. To prevent unauthorized access or disclosure, we have implemented appropriate physical, electronic and managerial procedures to safeguard and secure the information we collect online.
 
-## Alterações nesta Política de Privacidade
+## Changes to this Privacy Policy
 
-Reservamos o direito de atualizar ou alterar nossa Política de Privacidade a qualquer momento e você deve verificar esta Política periodicamente. Se fizermos alterações significativas nesta Política, iremos notificá-lo por meio da extensão ou por outros meios que considerarmos apropriados.
+We reserve the right to update or change our Privacy Policy at any time and you should check this Policy periodically. If we make significant changes to this Policy, we will notify you through the extension or other means we deem appropriate.
 
-## Contato
+## Contact
 
-Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco em emulacid@gmail.com.
+If you have any questions about this Privacy Policy, please contact us at emulacid@gmail.com.
 
-Última atualização: 12-05-24
+Last updated: 12-05-24
