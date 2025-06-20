@@ -1,6 +1,7 @@
 # Letterboxd-Randomizer
 
 Now it's easier to choose a movie from your Watchlist, isn't it? 🍿
+
 **
 
 🔝 Add a “Randomizer” button to the filter menu.
