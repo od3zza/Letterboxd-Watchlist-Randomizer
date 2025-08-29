@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Letterboxd - Watchlist Randomizer" by od3zza, // Buy me a pizza 🍕 https://ko-fi.com/od3zza
-   "version": "0.2",
+  "name": "Letterboxd - Watchlist Randomizer by od3zza", // Buy me a pizza 🍕 https://ko-fi.com/od3zza
+  "version": "0.5",
   "description": "Now it's easier to choose a movie from your Watchlist, isn't it? 🍿",
   "author": "od3zza",
   "content_scripts": [
@@ -11,9 +11,10 @@
     }
   ],
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
-  },
-  "permissions": ["activeTab"] // Request permission to access the active tab
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
 }
+
+ 
