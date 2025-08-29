@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Letterboxd - Watchlist Randomizer
 // @namespace    https://github.com/od3zza/Letterboxd-Randomizer
-// @version      0.1
+// @version      0.5
 // @description  Now it's easier to choose a movie from your Watchlist, isn't it? 🍿
 // @author       od3zza
 // @match        https://letterboxd.com/*
@@ -115,18 +115,19 @@
       const scrollToSelection = false;
       randomizer(scrollToSelection);
     });
-    el.appendChild(buttonCopy);
+    // Nova alteração aqui: use um seletor mais específico para o poster
+    el.querySelector("div.poster.film-poster").appendChild(buttonCopy);
   }
 
   // Insert CSS style
   function injectStylesheet() {
     const css = `
-      li.poster-container.${RANDOMIZER_SELECTED_CLASS} > * {
+      li.griditem.${RANDOMIZER_SELECTED_CLASS} > * {
         opacity: 1 !important;
         transition: all .1s linear;
       }
 
-      li.poster-container.${RANDOMIZER_SELECTED_CLASS} > .poster .frame .overlay {
+      li.griditem.${RANDOMIZER_SELECTED_CLASS} > .poster .frame .overlay {
         border-width: 3px !important;
         bottom: 0 !important;
         left: 0 !important;
@@ -136,12 +137,12 @@
         box-shadow: rgba(16, 19, 22, 0.25) 0px 0px 1px 1px inset !important;
       }
 
-      li.poster-container:not(.${RANDOMIZER_SELECTED_CLASS}) > * {
+      li.griditem:not(.${RANDOMIZER_SELECTED_CLASS}) > * {
         opacity: .1 !important;
         transition: all .1s linear;
       }
 
-      body.hide-films-seen li.poster-container.film-watched:not(.${RANDOMIZER_SELECTED_CLASS}) > * {
+      body.hide-films-seen li.griditem.film-watched:not(.${RANDOMIZER_SELECTED_CLASS}) > * {
         opacity: 0 !important;
         transition: all .1s linear;
       }
@@ -200,9 +201,9 @@
     let posters = [];
     const hideWatchedFilms = document.body.classList.contains("hide-films-seen");
     if (hideWatchedFilms) {
-      posters = document.querySelectorAll("li.poster-container.film-not-watched");
+      posters = document.querySelectorAll("li.griditem.film-not-watched");
     } else {
-      posters = document.querySelectorAll("li.poster-container");
+      posters = document.querySelectorAll("li.griditem");
     }
 
     if (window.LETTERBOXD_RANDOMIZER.shuffledIndexList.length != posters.length) {
